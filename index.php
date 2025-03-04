@@ -25,11 +25,14 @@ include_once __DIR__ . '/assets/components/head.php';
             <div class="box">
                 <form class="form_area" action="">
                     <label for="altura">Altura</label>
-                    <input class="input" id="altura_input" type="number" name="altura" id="altura_input" placeholder="160cm">
+                    <input class="input" id="altura_input" type="number" name="altura"  placeholder="1.60cm">
                     <label for="peso">Peso</label>
-                    <input class="input" id="peso_input" type="number" name="peso" id="peso_input" placeholder="65kg">
+                    <input class="input" id="peso_input" type="number" name="peso"  placeholder="65kg">
                     <div id="submit_area">
-                        <input id="calc_button" type="submit" value="Calcular">
+                    <button id="calc_button" onclick="calcIMC()">Calcular</button> 
+                    </div>
+                    <div id="Area_Resultado">
+                    <span id="Calc_resultado"></span>
                     </div>
                 </form>
             </div>
@@ -78,5 +81,5 @@ include_once __DIR__ . '/assets/components/head.php';
 
     </footer>
 </body>
-
+<script src="assets/Script/Calc_IMC.js"></script>
 </html>
