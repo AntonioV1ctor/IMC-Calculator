@@ -1,0 +1,25 @@
+.who_is_imc {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: var(--shadow-color);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.who_is_imc_text {
+    width:95%;
+    color: var(--text-color-black);
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.who_is_imc_title {
+    width: 95%;
+    margin-top: 30px;
+    text-align: left;
+}

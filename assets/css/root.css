@@ -1,0 +1,9 @@
+:root {
+    --text-color-black: black;
+    --text-color-white: white;
+    --shadow-color: 6px 7px 31px 0px rgba(0, 0, 0, 0.42);
+    --button-color: rgb(3, 52, 110);
+    --gradient-color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    --gradient-primary: rgb(2, 0, 36);
+    --background-color: aliceblue;
+}
